@@ -1,0 +1,37 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+
+}
+.container {
+
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  text-align: center;
+  margin: 200px 50px;
+  padding: 40px 20px;
+}
+
+.divPali, .divPari {
+  margin: 50px 50px;
+  border: 2px solid rgba(0,0,0, 0.2) ;
+  border-radius: 15px;
+  padding: 30px 30px;
+  background-color: rgb(243, 223, 162);
+}
+.divPali button, .divPari button {
+  margin-top: 40px;
+  height: 30px;
+  width: 100%;
+}
+.divPali button {
+  background-color: rgb(187, 68, 48);
+}
+.divPari button {
+  background-color: rgb(126, 189, 194);
+}
